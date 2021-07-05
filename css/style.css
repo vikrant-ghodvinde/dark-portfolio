@@ -63,7 +63,6 @@ header .left-header .social-media a i{
 header .right-header img{
   width: 100%;
   min-width: 100%;
-  position: relative;
   border-radius: 50%;
   box-shadow: #141414 0 2px 0;
 }
@@ -74,7 +73,7 @@ header .right-header img{
 nav{
   width: 100%;
   height: 80px;
-  bottom: 0;
+  top: 0;
   left: 0;
   display: flex;
   align-items: center;
@@ -140,7 +139,6 @@ section{
 .left-about h2{
   font-weight: 400;
 }
-
 .right-about img{
   width: 50%;
   border-radius: 30px;
