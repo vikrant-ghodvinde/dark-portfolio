@@ -42,7 +42,7 @@ header .left-header button{
   font-weight: 400;
   border: 1px solid #2196f3;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 header .left-header .social-media{
   display: flex;
@@ -111,7 +111,7 @@ nav .manus ul li a{
   margin: 0 15px;
   text-transform: uppercase;
   color: #000;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   transition: 0.5s;
 }
@@ -126,7 +126,11 @@ section{
   text-transform: uppercase;
   padding: 30px 20px;
 }
+.white{
+  color: #fff;
+}
 
+/* about */
 .about-content{
   display: flex;
   text-align: center;
@@ -136,10 +140,64 @@ section{
   width: 50%;
   text-align: left;
 }
+.left-about .btn{
+  text-decoration: none;
+  border: 2px solid #2196f3;
+  padding: 5px 10px;
+  color: #000;
+  transition: 0.5s;
+}
+.left-about p{
+  margin-bottom: 30px;
+}
 .left-about h2{
   font-weight: 400;
 }
 .right-about img{
   width: 50%;
   border-radius: 30px;
+}
+
+/* education */
+.education{
+  background: #0f0f0f;
+}
+.education h3{
+  margin: 0 150px;
+  font-weight: 400;
+  font-size: 24px;
+}
+.education-content{
+  display: flex;
+  margin: 50px 150px;
+}
+.education-content .line{
+  content: '';
+  width: 1px;
+  height: auto;
+  background: #2196f3;
+}
+.education-content .content{
+  margin: 0 30px;
+  width: 600px;
+  color: #fff;
+}
+.education-content .content .box{
+  margin: 20px 0;
+}
+.education-content .content .title{
+  color: #2196f3;
+  font-size: 26px;
+  font-weight: 600;
+}
+.education-content .content .university{
+  font-weight: 300;
+  font-size: 18px;
+}
+.education-content .content .university b{
+  font-weight: 500;
+  font-size: 18px;
+}
+.education-content .content .paras{
+  font-weight: 300;
 }
