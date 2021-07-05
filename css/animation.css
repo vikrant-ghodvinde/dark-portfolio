@@ -18,3 +18,9 @@ header .left-header button:hover{
   color: #000;
   padding: 8px 18px;
 }
+
+
+/* navbar */
+nav .manus ul li a:hover{
+  color: #ff0040;
+}
