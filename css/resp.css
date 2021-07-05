@@ -1,0 +1,20 @@
+/* for width 1000px; */
+@media (max-width: 1000px) {
+  header{
+    height: auto;
+    flex-direction: column-reverse;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header .left-header h1{
+    font-size: 18px;
+  }
+  header .left-header h1 span{
+    font-size: 28px;
+  }
+  header .left-header h3{
+    font-size: 16px;
+  }
+}

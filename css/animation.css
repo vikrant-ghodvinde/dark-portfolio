@@ -1,0 +1,20 @@
+/* social-media */
+header .left-header .social-media a i:hover{
+  box-shadow: #333 2px 2px 5px;
+}
+.social-media a .fa-facebook:hover{
+  color: #0011ff;
+}
+.social-media a .fa-instagram:hover{
+  color: #ff0044;
+}
+.social-media a .fa-twitter:hover{
+  color: #00b3ff;
+}
+
+/* header button */
+header .left-header button:hover{
+  background: #2196f3;
+  color: #000;
+  padding: 8px 18px;
+}
