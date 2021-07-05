@@ -44,6 +44,10 @@
   }
   nav .logo h1{
     position: relative;
+    opacity: 0;
+  }
+  nav.active .logo h1{
+    opacity: 1;
   }
   nav h1{
     position: absolute;
