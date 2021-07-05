@@ -27,10 +27,12 @@
     flex-direction: column;
     position: relative;
     top: -500px;
+    opacity: 0;
   }
   .manus.active ul{
     flex-direction: column;
     top: 0;
+    opacity: 1;
   }
   nav{
     height: 50px;
@@ -48,6 +50,7 @@
   }
   nav .sm-logo{
     display: block;
+    left: 20px;
   }
   nav.active .sm-logo{
     display: none;

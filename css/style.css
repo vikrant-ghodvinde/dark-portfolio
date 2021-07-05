@@ -116,3 +116,32 @@ nav .manus ul li a{
   font-weight: 500;
   transition: 0.5s;
 }
+
+/* section part */
+section{
+  padding: 50px 100px;
+}
+.heading{
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px 20px;
+}
+
+.about-content{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.left-about{
+  width: 50%;
+  text-align: left;
+}
+.left-about h2{
+  font-weight: 400;
+}
+
+.right-about img{
+  width: 50%;
+  border-radius: 30px;
+}
