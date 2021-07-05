@@ -77,6 +77,27 @@
     background-size: 30px;
     object-fit: cover;
   }
+
+
+  /* section */
+  section{
+    padding: 50px 0;
+  }
+  .about-content{
+    flex-direction: column-reverse;
+  }
+  .left-about{
+    margin: 20px 0;
+    text-align: center;
+  }
+  .left-about h2{
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 600;
+  }
+  .right-about img{
+    width: 70%;
+  }
 }
 
 
