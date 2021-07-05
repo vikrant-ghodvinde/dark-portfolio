@@ -1,7 +1,7 @@
 /* for width 1000px; */
 @media (max-width: 1000px) {
   header{
-    height: auto;
+    height: 100vh;
     flex-direction: column-reverse;
     padding: auto;
     justify-content: center;
