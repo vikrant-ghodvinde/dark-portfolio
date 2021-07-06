@@ -29,3 +29,128 @@ nav .manus ul li a:hover{
   background: #2196f3;
   color: #fff;
 }
+
+
+/* skill-bar animation */
+@keyframes html {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes javascript {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 50%;
+  }
+}
+@keyframes css {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 70%;
+  }
+}
+@keyframes python {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 45%;
+  }
+}
+@keyframes c {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 55%;
+  }
+}
+@keyframes cpp {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 50%;
+  }
+}
+@keyframes java {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 40%;
+  }
+}
+@keyframes mysql {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 60%;
+  }
+}
+@keyframes asp-net {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+
+@keyframes visual-studio {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes neebeans {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 50%;
+  }
+}
+@keyframes office {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 70%;
+  }
+}
+@keyframes atom {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes vscode {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 40%;
+  }
+}
+@keyframes photoshop {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 65%;
+  }
+}

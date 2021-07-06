@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* header start */
@@ -98,6 +99,7 @@ nav .logo h1{
 nav .sm-logo{
   display: none;
   text-transform: uppercase;
+  transition: 0.5s;
 }
 nav .manus{
   position: relative;
@@ -173,7 +175,7 @@ section{
 }
 .education-content .line{
   content: '';
-  width: 1px;
+  width: 2px;
   height: auto;
   background: #2196f3;
 }
@@ -200,4 +202,108 @@ section{
 }
 .education-content .content .paras{
   font-weight: 300;
+}
+
+/* skills */
+.skills-content{
+  display: flex;
+}
+.contentBx{
+  width: 50%;
+  padding: 0 15px;
+}
+.contentBx h2{
+  text-align: center;
+  padding: 30px;
+  font-style: italic;
+  font-weight: 500;
+}
+.skill-box{
+  margin: 10px 0;
+}
+.skill-box .info{
+  content: '';
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 8px;
+  font-size: 18px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.skill-box .skill-bar{
+  position: relative;
+  bottom: 5px;
+  content: '';
+  height: 5px;
+  background: #2196f3;
+  border-radius: 0 0 0 5px;
+}
+.skill-box .info .name i{
+  color: #2196f3;
+}
+
+
+/* seting width */
+.html{
+  width: 80%;
+  animation: html 2s ease-out;
+}
+.javascript{
+  width: 50%;
+  animation: javascript 2s ease-out;
+}
+.css{
+  width: 70%;
+  animation: css 2s ease-out;
+}
+.python{
+  width: 45%;
+  animation: python 2s ease-out;
+}
+.c{
+  width: 55%;
+  animation: c 2s ease-out;
+}
+.cpp{
+  width: 50%;
+  animation: cpp 2s ease-out;
+}
+.java{
+  width: 40%;
+  animation: java 2s ease-out;
+}
+.mysql{
+  width: 60%;
+  animation: mysql 2s ease-out;
+}
+.asp-net{
+  width: 80%;
+  animation: asp-net 2s ease-out;
+}
+
+/* Software */
+.visual-studio{
+  width: 80%;
+  animation: visual-studio 2s ease-out;
+}
+.neebeans{
+  width: 50%;
+  animation: neebeans 2s ease-out;
+}
+.office{
+  width: 70%;
+  animation: office 2s ease-out;
+}
+.atom{
+  width: 80%;
+  animation: atom 2s ease-out;
+}
+.vscode{
+  width: 40%;
+  animation: vscode 2s ease-out;
+}
+.photoshop{
+  width: 65%;
+  animation: photoshop 2s ease-out;
 }

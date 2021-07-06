@@ -125,6 +125,31 @@
   .education-content .content .title{
     font-size: 22px;
   }
+  .education-content .content .university{
+    font-size: 14px;
+  }
+  .education-content .content .university b{
+    font-size: 14px;
+  }
+  .education-content .content .paras{
+    font-size: 12px;
+  }
+
+  /* skills */
+  .skills-content{
+    flex-direction: column;
+  }
+  .skill-box .info{
+    padding: 3px 8px;
+    font-size: 14px;
+  }
+  .contentBx{
+    width: auto;
+    padding: auto;
+  }
+  .skill-box .skill-bar{
+    z-index: -1;
+  }
 }
 
 
