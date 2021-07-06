@@ -79,7 +79,7 @@
     position: absolute;
     top: 15px;
     right: 40px;
-    width: 25px;
+    width: 30px;
     height: 30px;
     background: url('../img/menu.png');
     background-size: 30px;
@@ -97,6 +97,9 @@
   /* section */
   section{
     padding: 50px 0;
+  }
+  .heading{
+    font-size: 20px;
   }
   .about-content{
     flex-direction: column-reverse;
@@ -140,7 +143,7 @@
     flex-direction: column;
   }
   .skill-box .info{
-    padding: 3px 8px;
+    padding: 5px 8px;
     font-size: 14px;
   }
   .contentBx{
@@ -149,6 +152,17 @@
   }
   .skill-box .skill-bar{
     z-index: -1;
+  }
+
+  /* contact */
+  .contact-content{
+    padding: 0 25px;
+  }
+  .contact-content li{
+    font-size: 12px;
+  }
+  .contact-title{
+    font-size: 16px;
   }
 }
 
@@ -167,4 +181,218 @@
     width: 100%;
     min-width: 100%;
   }
+}
+
+
+/* for width 250px */
+@media (max-width: 250px){
+  header{
+    padding: 50px 0;
+    text-align: center;
+  }
+  header .left-header{
+    margin-left: -5px;
+    margin-top: 10px;
+  }
+  header .left-header h1{
+    font-size: 14px;
+  }
+  header .left-header h1 span{
+    font-size: 22px;
+  }
+  header .left-header h3{
+    font-size: 10px;
+  }
+  header .left-header button{
+    padding: 5px 8px;
+    font-size: 10px;
+  }
+
+/* navbar */
+  nav .sm-logo{
+    font-size: 12px;
+  }
+
+  /* section */
+  section{
+    padding: 50px 0;
+  }
+  .heading{
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 20px;
+  }
+
+  /* about */
+  .left-about h2{
+    font-size: 14px;
+  }
+  .left-about p{
+    font-size: 10px;
+  }
+  .left-about .btn{
+    padding: 5px 8px;
+    font-size: 10px;
+    border: 1px solid #2196f3;
+  }
+
+  /* education */
+  .education h3{
+    margin: 0 20px;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .education-content{
+    margin: 50px 20px;
+  }
+  .education-content .content{
+    margin: 0 8px;
+  }
+  .education-content .line{
+    width: 3px;
+  }
+  .education-content .content .title{
+    font-size: 14px;
+  }
+  .education-content .content .university{
+    font-size: 10px;
+  }
+  .education-content .content .university b{
+    font-size: 10px;
+  }
+  .education-content .content .paras{
+    font-weight: 200;
+    font-size: 10px;
+  }
+
+  /* skills */
+  .contentBx h2{
+    text-align: center;
+    padding: 10px 2px;
+    font-style: italic;
+    font-size: 16px;
+  }
+  .skill-box .info{
+    font-size: 10px;
+  }
+
+  /* contact */
+  .contact-title{
+    font-size: 12px;
+  }
+  .contact-content li{
+    font-size: 8px;
+    font-weight: 200;
+    margin: 5px 0;
+  }
+}
+
+/* for width 200px */
+@media (max-width: 200px){
+  header{
+    padding: 50px 0;
+    text-align: center;
+  }
+  header .left-header{
+    margin-left: -5px;
+    margin-top: 10px;
+  }
+  header .left-header h1{
+    font-size: 14px;
+  }
+  header .left-header h1 span{
+    font-size: 22px;
+  }
+  header .left-header h3{
+    font-size: 10px;
+  }
+  header .left-header button{
+    padding: 5px 8px;
+    font-size: 10px;
+  }
+
+  /* navbar */
+  nav .logo h1{
+    font-size: 18px;
+  }
+  nav .sm-logo{
+    font-size: 12px;
+  }
+
+  /* section */
+  section{
+    padding: 50px 0;
+  }
+  .heading{
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 20px;
+  }
+
+  /* about */
+  .left-about h2{
+    font-size: 14px;
+  }
+  .left-about p{
+    font-size: 10px;
+  }
+  .left-about .btn{
+    padding: 5px 8px;
+    font-size: 10px;
+    border: 1px solid #2196f3;
+  }
+
+  /* education */
+  .education h3{
+    margin: 0 20px;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .education-content{
+    margin: 50px 20px;
+  }
+  .education-content .content{
+    margin: 0 8px;
+  }
+  .education-content .line{
+    width: 3px;
+  }
+  .education-content .content .title{
+    font-size: 14px;
+  }
+  .education-content .content .university{
+    font-size: 10px;
+  }
+  .education-content .content .university b{
+    font-size: 10px;
+  }
+  .education-content .content .paras{
+    font-weight: 200;
+    font-size: 10px;
+  }
+
+  /* skills */
+  .contentBx h2{
+    text-align: center;
+    padding: 10px 2px;
+    font-style: italic;
+    font-size: 16px;
+  }
+  .skill-box .info{
+    font-size: 10px;
+  }
+
+  /* contact */
+  .contact-title{
+    font-size: 12px;
+  }
+  .contact-content li{
+    font-size: 8px;
+    font-weight: 200;
+    margin: 5px 0;
+  }
+
+  
 }
